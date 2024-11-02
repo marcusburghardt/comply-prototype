@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package = "github.com/marcusburghardt/comply-prototype/proto";
+
+service ScanService {
+  rpc Execute(ScanRequest) returns (ScanResponse);
+}
+
+message ScanRequest {
+  string action = 1;
+}
+
+message ScanResponse {
+  int32 return_code = 1;
+}
