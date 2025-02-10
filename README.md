@@ -1,5 +1,9 @@
 # Comply-Prototype
 
+NOTE: This repository was an experiment that is now finished and therefore is archived.
+
+The outcomes of this experiment were incorporated at https://github.com/complytime/complytime
+
 ## Overview
 
 **Comply-Prototype** is a CLI tool used to manage OSCAL artifacts and policies generated from these OSCAL artifacts. The supported policies can be extended with plugins for specific technologies used both to scan and remediate a system. **Comply-Prototype** makes the underlying technology used by plugins transparent for the users, allowing a consistent experience while keeping a very flexible adoption of different technologies. **Comply-Prototype** communicates with plugins via gRPC, providing a standard and consistent communication mechanism while also allowing plugins developers to choose their preferred languages to contribute. This project is structured to allow modular development, ease of packaging, and maintainability.
